@@ -1,7 +1,5 @@
-BookModel: 
-    id number
-    Title string
-    Description string
-    Autor string
-    Autor string
-    Available
+BookModel:
+id :number
+Title: string
+Autor: string
+Available: bool

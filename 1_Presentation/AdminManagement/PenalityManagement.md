@@ -9,6 +9,7 @@
 <!-- On modifie les penalitées d'un utilisateur -->
 
     - PatchPenality(User_id)
-    -
 
-DeletePenality(User_id)
+# Delete user penality
+<!-- On sup^rime la pénalité d'un utilisateur -->
+    - DeletePenality(User_id)

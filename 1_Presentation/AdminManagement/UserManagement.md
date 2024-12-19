@@ -15,6 +15,3 @@
 <!-- On affiche les pénalités de l'utilisateur -->
 
     - GetPenalityByUser(User_id)
-
-ShowUsersPenalities()
-ShowUserLoan()

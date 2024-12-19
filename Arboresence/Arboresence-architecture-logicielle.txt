@@ -1,0 +1,38 @@
+1_Presentation/                   # Couche de présentation : Interface utilisateur.
+├── AdminManagement/
+│   ├── BookManagement.md         # Logique pour afficher et gérer les actions liées aux livres.
+│   ├── LoanManagement.md         # Logique pour afficher et gérer les actions liées aux emprunts.
+│   ├── PenalityManagement.md     # Logique pour afficher et gérer les actions liées aux pénalités.
+│   ├── Statistics.md             # Logique pour afficher les statistiques (d'emprunts, de livres disponibles, de popularité des livres).
+│   └── UserManagement.md         # Logique pour afficher et gérer les actions liées aux utilisateurs.
+├── Pages/
+│   └── AdminPage/
+│       └── Dashboard.html        # Page représentant l'interface du tableau de bord administrateur.
+
+2_Business/                       # Couche de logique métier : Règles de gestion et manipulations principales.
+├── DTO/
+│   ├── BookModel.md              # Modèle représentant un livre (id, titre, auteur, disponibilité).
+│   ├── LoansModel.md             # Modèle représentant un emprunt (utilisateur, livre, dates, statut).
+│   ├── PenalityModel.md          # Modèle représentant une pénalité (livre, utilisateur, montant, paiement).
+│   └── UserModel.md              # Modèle représentant un utilisateur (id, nom, emprunts, pénalités).
+└── workflow/
+    ├── BookQueries.md            # Logique pour manipuler les livres (CRUD, recherche).
+    ├── LoanQueries.md            # Logique pour gérer les emprunts (ajout, modification, suppression).
+    ├── PenalitiesQueries.md      # Logique pour gérer les pénalités (calcul, ajout, suppression).
+    ├── StatisticQueries.md       # Logique pour générer des statistiques (emprunts, livres disponibles, popularité).
+    └── UsersQueries.md           # Logique pour gérer les utilisateurs (création, récupération, suppression).
+
+3_Persistence/                    # Couche de persistance : Modèles et accès aux données.
+└── Repository/
+    ├── Books/
+    │   └── Model/
+    │       └── BookModel.md      # Modèle persistant pour un livre dans la base de données.
+    ├── Loans/
+    │   └── Model/
+    │       └── LoansModel.md     # Modèle persistant pour un emprunt dans la base de données.
+    ├── Penalities/
+    │   └── Model/
+    │       └── PenalityModel.md  # Modèle persistant pour une pénalité dans la base de données.
+    └── Users/
+        └── Model/
+            └── UserModel.md      # Modèle persistant pour un utilisateur dans la base de données.

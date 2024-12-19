@@ -1,18 +1,17 @@
 # Get loans statistics
 <!-- on affiche les statisctics des réservations -->
-    - get loans statistics GetLoansByMonth(date)
+    - GetLoansByMonth(date)
 
 # Get loan number
 <!-- on affiche le nombre d'emprunts pour un livre -->
-    - get loan number GetLoans()
+    - GetLoans()
 
 # Book disponible
-<!-- Affiche les livre disponible  -->
-    - GetBooksAvailable()
+<!-- Affiche les livre disponible en fesant appel à la fonction GetBooksAvailable() dans bookmanagement -->
 
 # Book indisponible
-<!-- Affiche les livre indisponible  -->
-    - GetBooksNoAvailable()
+<!-- Affiche les livre indisponible en fesant appel à la fonction GetBooksNoAvailable() dans bookmanagement -->
+
 
 
  

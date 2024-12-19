@@ -1,11 +1,29 @@
 # Show book list
-
 <!-- On affiche la list des livre  -->
-
     - GetBook()
 
 # Avaible books
+ <!-- On affiche les livres disponible -->
+    - GetBooksAvailable()
 
- <!-- On affiche les livres pas contenu dans Loans -->
+# Show book list by autor
+<!-- On affiche la list des livres par auteur -->
+    - GetBookByAutor()
+ 
+# Show book list by title
+<!-- On affiche la list des livres par titre  -->
+    - GetBookByTilte()
 
-    - GetLoans()
+# Patch book by Id
+<!-- On modifie un livre -->
+    - PatchBookById(book_id)
+
+# Delete Book by Id
+<!-- On supprime un livre -->
+    - DeleteBookById(book_id)
+
+# Add new Book
+<!-- On ajoute un nouveau livre -->
+    - PostBook()
+
+
